@@ -1,0 +1,267 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#38A9E0;
+    height: 60px;
+
+
+}
+.alert-primary a{
+  text-decoration: none;
+  display: block;
+  color:#006BA6
+}
+.con{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+.cont button a{
+  text-decoration: none;
+  color:#6bb9e0;
+  display: block;
+}
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  background-color:#f0f4f5;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+tr button{
+  border-radius:7px ;
+}
+thead td{
+  color: #006ba6;
+  font-size: 18px ;
+}
+tr
+{
+  margin-bottom: 20px;
+}
+.text-center{
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.w-70{
+  width: 70%;
+}
+.bg{
+  background-color: #f8f7f7;
+}
+.alert-primary button{
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+  border:0px;
+}
+.alert-primary{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+padding: 0px 16px;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+margin-bottom: 12px;
+font-size: 16px;
+background-color: rgba(217, 237, 247, 1);
+color: rgba(49, 112, 143, 1);
+border-color: rgba(126, 182, 193, 1);
+}
+.alert-danger{
+  width: 100%;
+padding: 0px 16px;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+margin-bottom: 12px;
+font-size: 16px;
+background-color: rgba(248, 215, 218, 1);
+border-color: rgba(220, 53, 69, 1);
+color: rgba(114, 28, 36,1);
+}
+.alert-success{
+  width: 100%;
+padding: 0px 16px;
+border-radius: 4px;
+border-style: solid;
+border-width: 1px;
+margin-bottom: 12px;
+font-size: 16px;
+background-color: rgba(227, 253, 235, 1);
+border-color: rgba(38, 179, 3, 1);
+color: rgba(60, 118, 61, 1);
+}
+
+
+h1{
+    color:#006BA6;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+ button{
+    background-color: #006BA6;
+        color: #FFFFFF;
+        border-radius: 15px;
+        width: 120px;
+        height: 30px;
+        cursor: pointer;
+}
+
+button:hover{
+  color:cadetblue;
+}
+
+
+
+.block{
+    margin: 150px auto;
+    line-height: 10px;
+}
+
+
+  
+  /* .doctorname{
+    color: #38A9E0;
+    text-align: left;
+    margin-right: 300px;
+    margin-left: 350px;
+    margin-top: 100px;
+    
+  }
+  
+  .doc{
+
+    margin-right: 300px;
+    margin-bottom: 1px;
+    /* margin-top:; */
+    color: #8F8C8C;
+    
+  
+    
+  } */
+  
+  .container{
+    border:#38A9E0 solid 0.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-top: 50px;
+    color: #38A9E0;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+   }
+
+   
+
+
+ img {
+    float: left;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 100px;
+    padding: 25px 25px 20px 25px;
+    margin-top: -100px;
+     
+  }
+
+  table{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  .first{
+    color:#38A9E0;
+    
+  }
+
+  .second{
+
+    color: #9E9E9E;
+  }
+
+  
+   input:hover{
+    color:cadetblue ;
+   }
+
+   .register{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border-color:#38A9E0 ;
+    background-color: #38A9E0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0%;
+
+}
+input::placeholder{
+    color: #38A9E0;
+}
+button{
+    background-color: #006BA6;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-color:#006BA6;
+
+}
+form a{
+    color:#006BA6;
+    text-decoration: none;
+}
+
+button:hover{
+   border-color:#006ba6;
+   color:#006ba6;
+   background-color: #FFFFFF;
+}
+
+.input{
+    display: block;
+    width: 500px;
+    height: 40px;
+    border-color:#38A9E0 ;
+    border-width: 1px;
+    border-style: solid;
+}
+.gender{
+    margin-bottom: 15px;
+    margin-left: 0%;
+}
+.gender span{
+    color:#006ba6;
+}
+
+.gender label{
+    color:#006ba6;
+}
